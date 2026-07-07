@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my-project"
+version = "0.0.1і"
+description = "PyAi is a Python library for creating AI systems and neural networks using simple commands."
+readme = "README.md"
+requires-python = ">=3.12"
+
+authors = [
+    {name = "Developer"}
+]
+
+dependencies = [
+    "numpy",
+    "requests"
+]
